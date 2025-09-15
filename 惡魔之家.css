@@ -1,57 +1,75 @@
 h1 {
-    font-family: "UnifrakturMaguntia", cursive;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 100px; 
-   font-optical-sizing: auto; 
-   font-weight: weight;  
-   color: #ffffff;
-   text-shadow: 0.1em 0.1em 0.05em #000000}
+  padding-top: 30px;
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px; 
+  font-optical-sizing: auto; 
+  font-weight: weight;  
+  color: #ffffff;
+  text-shadow: 0.1em 0.1em 0.05em #000000
+}
  
- h4 {font-family: "Zen Maru Gothic", serif;
-   font-weight: 400;
-   font-style: normal;
-   font-size: 30px;
-   color: #ffffff
- }
- 
- .bg {
- position: fixed;
- top: 0;
- left: 0;
- bottom: 0;
- right: 0;
- filter: blur(5px);
- z-index: -999;}
- .bg img {
-   min-height: 100%;
-   width: 100%;}
- 
- .button {
-   display: inline-block;
-   font-size: 25px;
-   color: #f9e6ff;
-   border: solid 1px transparent;
-   padding: 5px;
-   padding-left: 20px;
-   padding-right: 20px;
-   border-radius: 0px;
-   font-family: "Zen Maru Gothic", serif;
-   font-weight: 400;
-   font-style: normal;
-   background-color: transparent;
-   border-bottom: solid 4px #730099;
-   letter-spacing: 2px;
-   overflow: hidden;
-   text-shadow: 0.1em 0.1em #333
- }
- 
- .nav_area {
-   border-radius: 8px;
- }
- 
- img {
-  margin: auto;
-  display: block;
-   box-shadow: 10px 10px 20px rgb(26, 0, 0);
- }
+h4 {
+  padding-top: 30px;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #ffffff
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  filter: blur(5px);
+  z-index: -999;
+}
+.bg img {
+  min-height: 100%;
+  width: 100%;
+}
+
+#dropdownMenuLink {
+  display: inline-block;
+  font-size: 25px;
+  color: #f9e6ff;
+  border: solid 1px transparent;
+  padding: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0px;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: transparent;
+  border-bottom: solid 4px #730099;
+  letter-spacing: 2px;
+  overflow: hidden;
+  text-shadow: 0.1em 0.1em #333
+}
+.ig_icon{
+  position: relative;
+  left: 600px;
+  width: 48px;
+  height: 48px;
+}
+
+.dropdown {
+  position: relative;
+  left: 100px;
+  top: -70px;
+  border-radius: 8px;
+}
+
+.myself{
+  position: relative;
+  left: 530px;
+  width: 432px;
+  height: 768px;
+  box-shadow: 10px 10px 20px rgb(26, 0, 0);
+}
