@@ -52,17 +52,11 @@ h4 {
   overflow: hidden;
   text-shadow: 0.1em 0.1em #333
 }
-.ig_icon{
-  position: relative;
-  left: 600px;
-  width: 48px;
-  height: 48px;
-}
 
 .dropdown {
   position: relative;
   left: 100px;
-  top: -70px;
+  top: -30px;
   border-radius: 8px;
 }
 
